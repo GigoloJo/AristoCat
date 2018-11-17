@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goto_characters(View v){
-        Intent myIntent = new Intent(getBaseContext(), CharacterActivity.class);
+        Intent myIntent = new Intent(getBaseContext(), CharactersActivity.class);
         startActivity(myIntent);
     }
 
