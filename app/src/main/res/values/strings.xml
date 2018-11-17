@@ -1,95 +1,88 @@
 <resources>
     <string name="app_name">AristoCat</string>
-    <string name="title_activity_scrolling">ScrollingActivity</string>
-    <string name="large_text">
-        "Material is the metaphor.\n\n"
 
-        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
-        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
-        "technologically advanced and open to imagination and magic.\n"
-        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
-        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
-        "world, without breaking the rules of physics.\n"
-        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
-        "interact, and exist in space and in relation to each other. Realistic lighting shows "
-        "seams, divides space, and indicates moving parts.\n\n"
+    <string name="maximus_name">MAXIMUS</string>
+    <string name="maximus_nick">THE ACCLAIMED HERO</string>
+    <string name="maximus_moto">THERE IS NO SUCH THING AS PAIN, ONLY VICTORY.</string>
+    <string name="maximus_abstract">He puts the \'A\' in Aristeia! The epitome and defender of the grand values that define this sport, a natural-born leader, protector of his companions, and scourge of his opponents, Maximus\' resplendent smile and shield-bearing silhouette fan the flames of passion in the hearts of sports fans across the Human Sphere.\n</string>
+    <string name="maximus_description">Maximus is the square-jawed hero every kid in the Human Sphere wants to grow up to become. Maximus is the \‘A\’ in Aristeia!\n
+        Most Aristeia! fighters build a persona around their unique abilities and equipment, a bigger-than-life canvas on which to project a compelling story. By dint of editing and various audio-visual technologies, they forge their legend as superheroes or fearsome heels in the eyes of billions.\n
+        Maximus is no exception to this, but he also serves a political function. He lives out a message PanOceania is constantly broadcasting to Humankind at large, playing the role that the hyperpower claims to play for the Human Sphere. He\’s the shield of Justice that makes order possible, the armor that safeguards the standard of living every society is entitled to. Maximus is the perfect stand-in and spokesman for his nation: Courteous and unfailingly wholesome, yet still a titanic, unassailable bulwark.\n
+        In the HexaDome, as in his many feature mayafilms, Maximus plays the lead. He offsets the limitations of his bulk with masterful positioning, and can serve his tactical roles—zone defense, man-to-man lockdown, teammate coverage—robustly despite his lack of serious firepower.\n
+        Maximus is the epitome of fair play and teamwork. He\’s been at the peak of the competition for a whooping eight years and is showing no signs of slowing down.\n
+        \“Say your prayers and eat your vitamins!\”</string>
 
-        "Bold, graphic, intentional.\n\n"
+    <string name="parvati_name">PARVATI</string>
+    <string name="parvati_nick">MADE FOR THE HEXADOME</string>
+    <string name="parvati_moto">TACTICAL ANALYSIS COMPLETE. CONFIDENCE OF VICTORY AT 97.83\%.</string>
+    <string name="parvati_abstract">She\'s indefatigably, maximally devoted to her team. If there is a limit to her capacity for self-improvement, we have yet to see a sign of it. She will heal, repair, assess, fight, and even score if necessary. Parvati performs all her roles so dependably that she\'s been a staple of the Interplanetary Aristeia! Team Managers Association\'s All-Star team for twenty years straight, and still going strong.\n</string>
+    <string name="parvati_description">Parvati is a permanent memento for the early days of Aristeia!, when only synthetic bodies were allowed to fight.\n
+        It’s been twenty-five years since the first Aristeia! cast. Back then, it was called Yajurveda, and was conceived as gladiatorial combat between Aspects of ALEPH—among them, our beloved Parvati—wearing otherworldly synth bods. The show had been running for four years when its first ever human contender rose to the top. The audience fell in love with her fierceness and physicality, so much so that the channel was emboldened to pivot towards meat-on-meat fighting and slowly phase the machines out.\n
+        Today, only Parvati remains as a vestige of those first runs, her claim to fame unchallenged. Parvati’s learning module was programmed by ALEPH with a focus on teamwork and field medicine, and with successive iterations she has become a veritable staple of the game. Naturally, Parvati is supremely effective at patching her teammates up in a rush, but what garnered her a spot among the all-time Bahadurs is her ability to do that while still scoring and taking out the competition. She’s known to be a second wind that can carry even the most disastrous game to victory.\n
+        Each year, Parvati has regaled us with a specially-designed casing to suit that season’s overarching theme. Last season’s HexaDomes recreated the untamed mountains of Ariadna and Parvati flaunted the look of a rugged frontierswoman. This time she’s chosen retro stylings to take us back to her debut, updating that classic design but reminding her fans that deep down she’s a highly sophisticated android.\n
+        After so many years in the spotlight, Parvati is a bona fide international celebrity, recognized for her work both inside the HexaDome and outside. With her learning module always collating and processing every game and every fight, only one question remains:\n
+        Is there a ceiling to Parvati’s evolution?\</string>
 
-        "The foundational elements of print based design typography, grids, space, scale, color, "
-        "and use of imagery guide visual treatments. These elements do far more than please the "
-        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
-        "imagery, large scale typography, and intentional white space create a bold and graphic "
-        "interface that immerse the user in the experience.\n"
-        "An emphasis on user actions makes core functionality immediately apparent and provides "
-        "waypoints for the user.\n\n"
+    <string name="lunah_name">MAJOR LUNAH</string>
+    <string name="lunah_nick">DISCIPLINED AND LETHAL</string>
+    <string name="lunah_moto">YOU CAN RUN, BUT YOU CAN\'T HIDE.</string>
+    <string name="lunah_abstract">As deliberate and lethal as the venomous snakes of her home planet, Major Lunah surrenders the spotlight only up until the moment she decides to make the kill. Her military rank is more than a marketing scheme; she has served her nation in some of the deadliest theatres of operation in the Human Sphere. Now, she\´s come to bring some much-needed discipline to the world of show biz.\n</string>
+    <string name="lunah_description">This decorated markswoman—she holds the rank of Rā\'id in the Haqqislamite armed forces —entered the pro Aristeia! circuit only two years ago, and she’s already caused quite a splash.\n
+        The forty-three-year-old war hero boasts an impressive service record, including not one, not two, but three tours as an elite sharpshooter on Paradiso, where she helped keep the alien invaders of the Combined Army at bay, lest they gain a foothold in their encroachment of the Human Sphere.\n
+        For reasons she refuses to disclose, two years ago Major Lunah resigned her military commission and became an Aristeia! aspirant. She had the approval and support of her superiors at the Haqqislamite army and, as it turned out, of the Haqqislamite people at large—audience ratings in Haqqislam have skyrocketed since her debut.\n
+        Major Lunah has introduced bona fide military discipline into the world of Aristeia! And, in a sport where warfare is so ostentatiously invoked, it seems the audience has gotten a taste for the real thing. Luckily for them, Major Lunah has a competitive streak, as evidenced by her celebration of every new notch on her gun. She has proven that a sniper can play as crucial a role in a team as any other combatant. Despite her stern rictus and martial demeanor, there’s cheers every time she comes out of nowhere and turns the tide of a game with a surgical max-range shot. And each time she pulls off one of her trademark ricochets, her merchandise flies off the shelf for weeks.\n
+        Accurate, serene, courteous in her dealings with journalists and fans, she’s a real pro. Major Lunah has promised us a finale twist that sports aficionados won’t soon forget.\n
+        Could the hour of revelation be nigh?\</string>
 
-        "Motion provides meaning.\n\n"
+    <string name="hexx3r_name">HEXX3R</string>
+    <string name="hexx3r_nick"> THE NOMAD WITCH</string>
+    <string name="hexx3r_moto">EXITUS ACTA PROBAT</string>
+    <string name="hexx3r_abstract">The \'Nomad Witch\' has worked hard for that moniker. Whenever she\'s in the arena, everyone else is at risk of becoming an unwitting pawn or a mindless puppet. With a pull of her string, a foe flies off the scoring zone like a broken doll; with a curt order, a friend advances an agenda only hEXx3r truly understands.\n</string>
+    <string name="hexx3r_description">The enigmatic Nomad hacker known only as hEXx3r is responsible for a revolution in the role played by software in Aristeia!\n
+        More than any other hacker in the brief stretch that the discipline has been applied to Aristeia! hEXx3r has changed the face of the game forever. In record time, she has proven capable of turning the tide of a match by sending her opponents into disarray at the worst possible moment. Armed with nothing but software, hEXx3r gives the heavyweights a run for their money. She freezes them, exposes them and then throws them into ambuscades choreographed at the speed of thought. The words “that Nomad witch” are often muttered by players as they’re carted out of the HexaDome.\n
+        Her fans blame her strained reputation on ‘smear campaigns’ by PanOceanian media, but the truth is she has slipped comfortably into the role of a termagant and used it to boost her mystique. So far, it’s served her well. Her brand recognition numbers are outstanding and she’s a well-loved figure among non-conformists and antiestablishmentarians even beyond the borders of the Nomad Nation.\n
+        hEXx3r hails from the Nomad mothership Tunguska, and her… unusual hacking device reflects that. Although its inner workings are a closely guarded secret, experts believe hEXx3r’s mask is part of a neural interface and that her gloves play a key role in giving her software access to the HexaDome fixtures, but beyond that it’s all conjecture.\n
+        In the absence of official data, theories abound: from esoteric alien technology to the idea that hEXx3r herself was grown in a vat in some Praxis lab researching human telekinetic capabilities. But if you ask the average fan, they’ll have a simpler explanation:\n
+        It’s legit witchcraft!\”</string>
 
-        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
-        "inflection points that initiate motion, transforming the whole design.\n"
-        "All action takes place in a single environment. Objects are presented to the user without "
-        "breaking the continuity of experience even as they transform and reorganize.\n"
-        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
-        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+    <string name="ball_name">8-BALL</string>
+    <string name="ball_nick">THE CHARMING BLACK SHEEP</string>
+    <string name="ball_moto">YOU KNOW ME; I SEE AN OPENING, I GOTTA PLAY BALL.</string>
+    <string name="ball_abstract">Showmanship made (panda) flesh, a poet in the medium of randomness, \'Baller\' crashes the HexaDome like he crashes a party: unavoidably and unpredictably. He rolls like a powerful opening break, only this ball is calling all the shots. 8-Ball is the pain in any team manager\'s ass and the life of every party worthy of that name.\n</string>
+    <string name="ball_description">He’s the eighth heir to a caste of Aristeia! champions, a beloved media superstar and an outrageous sex-symbol, but he’s always fallen just a little short of snatching the coveted title of Bahadur.\n
+        8-Ball hails from Bakunin, the weirdest of the three motherships of the Nomad Nation. If the Bakunin society has one salient trait, it’s a tolerance for all things different and eccentric. A specific borough inside Bakunin, called VaudeVille, is the Human Sphere’s most fertile soil for artistic endeavor, sordid indulgence and extravagant lavishness. One discipline lies at the intersection of all three: body modification. For the right money, you can get panther eyes, live wire hair… or panda fur.\n
+        No dark arts are responsible for 8-Ball’s prodigious size and strength; he was always going to be buff and deceptively agile for his massive size. Cheeky, impudent and carefree, at least he has the skills to back up all his bravado. As for his family, from a very early age they enabled his addiction to extreme sports in lieu of training for his rightful destiny: the crown of Aristeia! Bahadur.\n
+        Will this be the season 8-Ball finally realizes his legacy?\n</string>
 
-        "3D world.\n\n"
+    <string name="mushashi_name">MIYAMOTO MUSHASHI</string>
+    <string name="mushashi_nick">THE EDGE UNREMITTING</string>
+    <string name="mushashi_moto">KNOW YOUR ENEMY; KNOW THEIR BLADE.</string>
+    <string name="mushashi_abstract">If you were to synthesize pure combat prowess, the formula would have to contain the mind of the most renowned fighter in history, plus the most advanced artificial body ever designed. Luckily for us, Aristeia! has already gone to the trouble of manufacturing this volatile concoction, and all that\'s left for us is to kick back and enjoy the spectacle that is Miyamoto Mushashi.\n</string>
+    <string name="mushashi_description">Miyamoto Mushashi is a faithfully rendered biosynthetic Recreation of the emblematic 16th-century Japanese master swordsman.\n
+        ‘Project Duelist’ was carried out at the request of the VissioRama media channel for their Aristeia! venture. After a fig-leaf renaming for legal reasons, VissioRama deployed an ambitious branding scheme to make a channel-wide star out of their very own Recreation. They requested an updated version of the historical personality so he could star in a modern-day musha-shugyo, the warrior’s pilgrimage undergone by Miyamoto between 1605 and 1612. The show has followed the Recreation’s exploits across the Human Sphere, including his duels against other Aristos he’s encountered in his travels.\n
+        The first few seasons have been nothing short of a smash hit. Mushashi has ridden a wave of critical acclaim, audience retention and fan engagement all the way to the top of the rankings and the title of Bahadur faster than any fighter before him, but his future is uncertain. His austere, composed personality is ill-suited to the frivolity of Aristeia! stardom and his efficient, no-frills dueling style makes for unsatisfactory fighting sequences. Increasingly, commentators are starting to wonder: What does VissioRama have in store for Miyamoto Mushashi?\n</string>
 
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
+    <string name="wildbill_name">WILD BILL</string>
+    <string name="wildbill_nick">THE MYSTERIOUS GUNSLINGER</string>
+    <string name="wildbill_moto">I\'VE DANCED WITH THE REAPER MORE\'N A FEW TIMES MYSELF. NOW SHE DANCES TO MY TUNE.</string>
+    <string name="wildbill_abstract">If Wild Bill is in the mix, you know there\'s a wager going on. The higher the risk, the sweeter his inevitable reward. A bona fide card shark and unerring gunslinger, this mysterious, anachronistic gentleman fixated on the march of time is this season\'s leading contender to the title of Bahadur. If you want to win big, go ahead and bet against him, but be aware: so far he hasn\'t lost a gamble.\n</string>
+    <string name="wildbill_description">Wild Bill is so committed to his historical namesake he’s spun a legend out of the barrels of his twin revolvers.\n
+        James Butler Hickok introduced himself to the showrunners during a live broadcast on Dawn, the planet of the Ariadnan nation. For his first public appearance, he was already in-character as Wild Bill: he showed up on horseback, armed with two guns with mother of pearl grips, and wearing a wide-brimmed hat, a duster coat, and hide boots with spurs.\n
+        As it turns out, he already had an exceptional résumé as an adventurer. He had been one of the few survivors of the Day of the Dead Man, which he finished carrying only a hunting rifle, a handful of bullets, a canteen of water and an antique pocketwatch. A remarkable feat to pull off.\n
+        Everything about Wild Bill is from a bygone era, down to the way he walks, his anachronistic turns of phrase and his pocketwatch—a genuine piece of 19th-century Americana he unfailingly checks each time he guns down an opponent in the arena.\n
+        Despite his old-fashioned persona, Wild Bill has a very modern eye for the parameters of a spectacle capable of making the audience tick. The thunder of his guns is the soundtrack to a tale of derring-do full of grisly plot twists.\n
+        After five seasons of buildup, everyone agrees that the cowboy is perfectly poised to take a shot at Miyamoto for the league crown.\n
+        His time is fast approaching, maybe that’s why his eyes are glued to his watch?\n</string>
 
-        "Light and shadow.\n\n"
+    <string name="gata_name">GATA</string>
+    <string name="gata_nick">THERE\'S NO SPEED LIMIT ON THE WAY TO THE TOP!</string>
+    <string name="gata_moto">THERE\'S NO SPEED LIMIT ON THE WAY TO THE TOP!</string>
+    <string name="gata_abstract">The newest addition to the star-studded halls of Aristeia! is so fast she seems to be everywhere at once, and every camera lens works double to keep up with her, both inside and outside the HexaDome. Gata\'s upbeat, vibrant personality makes her merchandise fly off the shelves as quickly as she flies over her opponent\'s heads.\n</string>
+    <string name="gata_description">The latest teenage idol to grace our screens is a little orphan who made a dizzying journey from destitution to superstardom.\n
+        Cátia was born in the Belagua favela on planet Acontecimento, where hunger pushed her to a childhood of larceny. Her self-preservation instincts taught her to pick a pocket or lift a piece of fruit, and then make a dash for it. Run for it, and keep running. She grew up fleeing every danger, but danger was always half a step behind. Even as she dodged the prostitution rings that swallow so many lives like hers, she found herself taking courier jobs for the kind of people one can’t afford to disappoint. That kept her head above water for a few days, but money never lasted long.\n
+        At sixteen, her luck finally turned. Desperate to leave Acontecimento, she stole a briefcase from a businesswoman who was clearly guarding something valuable. She thought fencing it would pay for her ticket into space and a clean start somewhere else, but the woman’s bodyguards had other plans. These weren’t the apathetic cops she was used to, they were well-trained mercenaries who tracked her like hounds.\n
+        In the free-running chase that ensued, Cátia unknowingly broke into the set of a film being shot. Even though the security agents were in peak physical shape, the girl humiliated them with her acrobatics on her way to the exit. Among the many witnesses was a renowned talent scout named Sophia Kreuziger, who requested a copy of the footage so she could examine the young thief’s pirouettes.\n
+        Cátia was ultimately captured, but Sophia and her lawyers interceded and managed to convince the owner of the briefcase to drop all charges. In return for Sophia’s legal and professional representation, Cátia fulfilled her dream to move off-planet, and Sophia got a new star—one which would shine brightly indeed—at a steal.\n
+        Will Gata outrun her competitors to the top of the charts?\n</string>
 
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
-
-        "Resting elevation.\n\n"
-
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
-
-        "Component elevations.\n\n"
-
-        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
-        "does not vary from 6dp in one app to 16dp in another app).\n"
-        "Components may have different resting elevations across platforms, depending on the depth "
-        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
-
-        "Responsive elevation and dynamic elevation offsets.\n\n"
-
-        "Some component types have responsive elevation, meaning they change elevation in response "
-        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
-        "changes are consistently implemented using dynamic elevation offsets.\n"
-        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
-        "to the component’s resting state. They ensure that elevation changes are consistent "
-        "across actions and component types. For example, all components that lift on press have "
-        "the same elevation change relative to their resting elevation.\n"
-        "Once the input event is completed or cancelled, the component will return to its resting "
-        "elevation.\n\n"
-
-        "Avoiding elevation interference.\n\n"
-
-        "Components with responsive elevations may encounter other components as they move between "
-        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
-        "through other material, components avoid interfering with one another any number of ways, "
-        "whether on a per component basis or using the entire app layout.\n"
-        "On a component level, components can move or be removed before they cause interference. "
-        "For example, a floating action button (FAB) can disappear or move off screen before a "
-        "user picks up a card, or it can move if a snackbar appears.\n"
-        "On the layout level, design your app layout to minimize opportunities for interference. "
-        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
-        "when a user tries to pick up one of cards.\n\n"
-    </string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_maximus">MaximusActivity</string>
 </resources>
