@@ -13,7 +13,7 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/maximus_background"
+            android:id="@+id/hannibal_background"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentStart="true"
@@ -33,10 +33,10 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/maximus_background" />
+            app:srcCompat="@drawable/hannibal_background" />
 
         <ImageView
-            android:id="@+id/maximus_logo"
+            android:id="@+id/hannibal_logo"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentStart="true"
@@ -56,13 +56,13 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/maximus_logo" />
+            app:srcCompat="@drawable/hannibal_logo" />
 
         <TextView
-            android:id="@+id/maximus_motd"
+            android:id="@+id/hannibal_motd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/maximus_logo"
+            android:layout_below="@+id/hannibal_logo"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentEnd="true"
@@ -78,7 +78,7 @@
             android:shadowDy="3"
             android:shadowRadius="1.5"
             android:singleLine="false"
-            android:text="@string/maximus_moto"
+            android:text="@string/hannibal_moto"
             android:textAlignment="center"
             android:textColor="@color/white_font"
             android:textSize="12dp"
@@ -86,26 +86,26 @@
             app:fontFamily="@font/montalban_bold_italic" />
 
         <TextView
-            android:id="@+id/maximus_abstract"
+            android:id="@+id/hannibal_abstract"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/maximus_motd"
+            android:layout_below="@+id/hannibal_motd"
             android:layout_marginStart="12dp"
             android:layout_marginLeft="12dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="12dp"
             android:layout_marginRight="12dp"
             android:layout_marginBottom="0dp"
-            android:text="@string/maximus_abstract"
+            android:text="@string/hannibal_abstract"
             android:textColor="@color/white_font"
             android:textSize="10dp"
             android:textAppearance="@android:style/TextAppearance.Holo.Small" />
 
         <TextView
-            android:id="@+id/maximus_hl_background"
+            android:id="@+id/hannibal_hl_background"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/maximus_abstract"
+            android:layout_below="@+id/hannibal_abstract"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_marginStart="12dp"
@@ -124,10 +124,10 @@
             app:fontFamily="@font/montalban_bold_italic" />
 
         <TextView
-            android:id="@+id/maximus_hl_name"
+            android:id="@+id/hannibal_hl_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/maximus_hl_background"
+            android:layout_below="@+id/hannibal_hl_background"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_marginStart="12dp"
@@ -139,19 +139,19 @@
             android:shadowDy="3"
             android:shadowRadius="1.5"
             android:singleLine="false"
-            android:text="@string/maximus_name"
+            android:text="@string/hannibal_name"
             android:textStyle="bold"
             android:textColor="@color/white_font"
             android:textSize="14dp"
             android:textAppearance="@android:style/TextAppearance.Holo.Small" />
 
         <TextView
-            android:id="@+id/maximus_hl_description"
+            android:id="@+id/hannibal_hl_description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@+id/maximus_hl_name"
-            android:layout_toRightOf="@+id/maximus_hl_name"
-            android:layout_below="@+id/maximus_hl_background"
+            android:layout_toEndOf="@+id/hannibal_hl_name"
+            android:layout_toRightOf="@+id/hannibal_hl_name"
+            android:layout_below="@+id/hannibal_hl_background"
             android:layout_marginStart="12dp"
             android:layout_marginLeft="12dp"
             android:layout_marginTop="9dp"
@@ -163,17 +163,17 @@
             android:shadowDy="3"
             android:shadowRadius="1.5"
             android:singleLine="false"
-            android:text="@string/maximus_nick"
+            android:text="@string/hannibal_nick"
             android:textStyle="normal"
             android:textColor="@color/white_font"
             android:textSize="12dp"
             android:textAppearance="@android:style/TextAppearance.Holo.Small" />
 
         <ImageView
-            android:id="@+id/maximus_image"
+            android:id="@+id/hannibal_image"
             android:layout_width="wrap_content"
             android:layout_height="250dp"
-            android:layout_below="@+id/maximus_hl_name"
+            android:layout_below="@+id/hannibal_hl_name"
             android:layout_alignParentLeft="true"
             android:layout_marginStart="0dp"
             android:layout_marginLeft="0dp"
@@ -184,30 +184,34 @@
             android:adjustViewBounds="true"
             android:cropToPadding="false"
             android:scaleType="fitStart"
-            app:srcCompat="@drawable/maximus_image" />
+            app:srcCompat="@drawable/hannibal_image" />
 
         <TextView
-            android:id="@+id/maximus_description"
+            android:id="@+id/hannibal_description"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/maximus_hl_name"
+            android:layout_height="250dp"
+            android:layout_below="@+id/hannibal_hl_name"
             android:layout_marginStart="0dp"
             android:layout_marginLeft="0dp"
             android:layout_marginTop="12dp"
             android:layout_marginEnd="12dp"
             android:layout_marginRight="12dp"
             android:layout_marginBottom="0dp"
-            android:layout_toRightOf="@id/maximus_image"
-            android:text="@string/maximus_description"
+            android:autoSizeTextType="uniform"
+            android:autoSizeMinTextSize="6sp"
+            android:autoSizeMaxTextSize="10sp"
+            android:autoSizeStepGranularity="1sp"
+            android:layout_toRightOf="@id/hannibal_image"
+            android:text="@string/hannibal_description"
             android:textAppearance="@android:style/TextAppearance.Holo.Small"
             android:textColor="@color/white_font"
             android:textSize="8dp" />
 
         <TextView
-            android:id="@+id/maximus_hl_cards"
+            android:id="@+id/hannibal_hl_cards"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/maximus_image"
+            android:layout_below="@+id/hannibal_image"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_marginStart="12dp"
@@ -229,7 +233,7 @@
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:layout_below="@id/maximus_hl_cards"
+            android:layout_below="@id/hannibal_hl_cards"
             android:layout_marginTop="8dp">
 
 
@@ -242,49 +246,49 @@
                 android:paddingRight="12dp">
 
                 <ImageView
-                    android:id="@+id/maximus_profile"
+                    android:id="@+id/hannibal_profile"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:adjustViewBounds="true"
                     android:cropToPadding="false"
                     android:scaleType="fitStart"
-                    app:srcCompat="@drawable/maximus_profile" />
+                    app:srcCompat="@drawable/hannibal_profile" />
 
                 <ImageView
-                    android:id="@+id/maximus_card1"
+                    android:id="@+id/hannibal_card1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:adjustViewBounds="true"
                     android:cropToPadding="false"
                     android:scaleType="fitStart"
-                    app:srcCompat="@drawable/maximus_card1" />
+                    app:srcCompat="@drawable/hannibal_card1" />
 
                 <ImageView
-                    android:id="@+id/maximus_card2"
+                    android:id="@+id/hannibal_card2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:adjustViewBounds="true"
                     android:cropToPadding="false"
                     android:scaleType="fitStart"
-                    app:srcCompat="@drawable/maximus_card2" />
+                    app:srcCompat="@drawable/hannibal_card2" />
 
                 <ImageView
-                    android:id="@+id/maximus_card3"
+                    android:id="@+id/hannibal_card3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:adjustViewBounds="true"
                     android:cropToPadding="false"
                     android:scaleType="fitStart"
-                    app:srcCompat="@drawable/maximus_card3" />
+                    app:srcCompat="@drawable/hannibal_card3" />
 
                 <ImageView
-                    android:id="@+id/maximus_card4"
+                    android:id="@+id/hannibal_card4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:adjustViewBounds="true"
                     android:cropToPadding="false"
                     android:scaleType="fitStart"
-                    app:srcCompat="@drawable/maximus_card4" />
+                    app:srcCompat="@drawable/hannibal_card4" />
 
             </LinearLayout>
 

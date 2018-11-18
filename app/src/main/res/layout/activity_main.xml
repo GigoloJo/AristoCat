@@ -1,73 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:layout_gravity="center"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/backrepeat"
-    >
+    android:background="@drawable/backrepeat">
 
     <ImageView
         android:id="@+id/aristeia_logo"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_marginTop="12dp"
         android:src="@drawable/aristeia_logo"
         />
 
-    <ImageView
-        android:id="@+id/filler_top"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:background="@android:color/transparent"
-        />
-
-    <ImageButton
+    <Button
         android:id="@+id/button_characters"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_below="@+id/aristeia_logo"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="0dp"
+        android:alpha="0.95"
         android:background="@android:color/transparent"
         android:onClick="goto_characters"
-        android:src="@drawable/aristeia_logo"
+        android:text="CHARACTERS"
+        android:textAlignment="center"
+        android:textColor="@color/white_font"
+        android:textSize="24dp"
+        app:fontFamily="@font/montalban_bold_italic"
         />
 
-    <ImageButton
+    <Button
         android:id="@+id/button_scenarios"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_below="@+id/button_characters"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="0dp"
+        android:alpha="0.95"
         android:background="@android:color/transparent"
-        android:src="@drawable/aristeia_logo"
+        android:onClick="goto_scenarios"
+        android:text="SCENARIOS"
+        android:textAlignment="center"
+        android:textColor="@color/white_font"
+        android:textSize="24dp"
+        app:fontFamily="@font/montalban_bold_italic"
         />
 
-    <ImageButton
+    <Button
         android:id="@+id/button_states"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_below="@+id/button_scenarios"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="0dp"
+        android:alpha="0.95"
         android:background="@android:color/transparent"
-        android:src="@drawable/aristeia_logo"
+        android:onClick="goto_states"
+        android:text="STATES"
+        android:textAlignment="center"
+        android:textColor="@color/white_font"
+        android:textSize="24dp"
+        app:fontFamily="@font/montalban_bold_italic"
         />
 
-    <ImageButton
+    <Button
         android:id="@+id/button_round"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_below="@+id/button_states"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="0dp"
+        android:alpha="0.95"
         android:background="@android:color/transparent"
-        android:src="@drawable/aristeia_logo"
+        android:onClick="goto_round"
+        android:text="ROUND SEQUENCE"
+        android:textAlignment="center"
+        android:textColor="@color/white_font"
+        android:textSize="24dp"
+        app:fontFamily="@font/montalban_bold_italic"
         />
 
-    <ImageView
-        android:id="@+id/filler_bottom"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:background="@android:color/transparent"
-        />
-
-</LinearLayout>
+</RelativeLayout>

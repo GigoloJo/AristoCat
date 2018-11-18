@@ -1,33 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/states_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center"
-    android:orientation="vertical"
-    android:background="@drawable/backrepeat"
-    android:fillViewport="true">
+    android:background="@drawable/backrepeat">
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/states_logo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:orientation="vertical">
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:alpha="0.95"
+        android:background="@android:color/transparent"
+        android:text="STATES"
+        android:textAlignment="center"
+        android:textColor="@color/white_font"
+        android:textSize="36dp"
+        app:fontFamily="@font/montalban_bold_italic"/>
 
-        <ImageView
-            android:id="@+id/aristeia_logo"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/aristeia_logo"
-            />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="States"
-            />
-
-    </LinearLayout>
-
-</ScrollView>
+</RelativeLayout>
