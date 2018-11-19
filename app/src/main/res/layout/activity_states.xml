@@ -1,28 +1,212 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/states_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/backrepeat">
 
-    <TextView
-        android:id="@+id/states_logo"
+    <RelativeLayout
+        android:id="@+id/states_container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:alpha="0.95"
-        android:background="@android:color/transparent"
-        android:text="STATES"
-        android:textAlignment="center"
-        android:textColor="@color/white_font"
-        android:textSize="36dp"
-        app:fontFamily="@font/montalban_bold_italic"/>
+        android:layout_height="wrap_content">
 
+        <TextView
+            android:id="@+id/states_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:alpha="0.95"
+            android:background="@android:color/transparent"
+            android:text="STATES"
+            android:textAlignment="center"
+            android:textColor="@color/white_font"
+            android:textSize="36dp"
+            app:fontFamily="@font/montalban_bold_italic" />
 
-</RelativeLayout>
+        <com.github.florent37.expansionpanel.ExpansionHeader
+            android:id="@+id/header_dazzled"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@id/states_logo"
+            app:expansion_headerIndicator="@id/indicator_dazzled"
+            app:expansion_layout="@id/layout_dazzled"
+            app:expansion_toggleOnClick="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp">
+
+                <ImageView
+                    android:id="@+id/image_dazzled"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="0dp"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="false"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/state_dazzled" />
+
+                <TextView
+                    android:id="@+id/title_dazzled"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="0dp"
+                    android:alpha="0.95"
+                    android:background="@android:color/transparent"
+                    android:text="DAZZLED"
+                    android:textColor="@color/white_font"
+                    android:textSize="20dp"
+                    app:fontFamily="@font/montalban_condensed"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/indicator_dazzled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="16dp"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/ic_expansion_header_indicator_grey_24dp" />
+
+        </com.github.florent37.expansionpanel.ExpansionHeader>
+
+        <com.github.florent37.expansionpanel.ExpansionLayout
+            android:id="@+id/layout_dazzled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header_dazzled">
+
+            <TextView
+                android:id="@+id/description_dazzled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:alpha="0.95"
+                android:background="@android:color/transparent"
+                android:singleLine="false"
+                android:text="@string/state_dazzled"
+                android:textColor="@color/white_font"
+                android:textSize="12dp"
+                app:fontFamily="@font/aristeia_regular" />
+
+        </com.github.florent37.expansionpanel.ExpansionLayout>
+
+        <com.github.florent37.expansionpanel.ExpansionHeader
+            android:id="@+id/header_poisoned"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@id/header_dazzled"
+            app:expansion_headerIndicator="@id/indicator_poisoned"
+            app:expansion_layout="@id/layout_poisoned"
+            app:expansion_toggleOnClick="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp">
+
+                <ImageView
+                    android:id="@+id/image_poisoned"
+                    android:layout_width="36dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="0dp"
+                    android:adjustViewBounds="true"
+                    android:cropToPadding="false"
+                    android:scaleType="fitCenter"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/state_poisoned" />
+
+                <TextView
+                    android:id="@+id/title_poisoned"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="0dp"
+                    android:alpha="0.95"
+                    android:background="@android:color/transparent"
+                    android:text="POISONED"
+                    android:textColor="@color/white_font"
+                    android:textSize="20dp"
+                    app:fontFamily="@font/montalban_condensed"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/indicator_poisoned"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="16dp"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/ic_expansion_header_indicator_grey_24dp" />
+
+        </com.github.florent37.expansionpanel.ExpansionHeader>
+
+        <com.github.florent37.expansionpanel.ExpansionLayout
+            android:id="@+id/layout_poisoned"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header_poisoned">
+
+            <TextView
+                android:id="@+id/description_poisoned"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:alpha="0.95"
+                android:background="@android:color/transparent"
+                android:singleLine="false"
+                android:text="@string/state_poisoned"
+                android:textColor="@color/white_font"
+                android:textSize="12dp"
+                app:fontFamily="@font/aristeia_regular" />
+
+        </com.github.florent37.expansionpanel.ExpansionLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

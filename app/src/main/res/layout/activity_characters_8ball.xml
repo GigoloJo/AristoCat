@@ -202,7 +202,7 @@
             android:autoSizeStepGranularity="1sp"
             android:layout_toRightOf="@id/ball_image"
             android:text="@string/ball_description"
-            android:textAppearance="@android:style/TextAppearance.Holo.Small"
+            app:fontFamily="@font/aristeia_regular"
             android:textColor="@color/white_font"
             android:textSize="8dp" />
 

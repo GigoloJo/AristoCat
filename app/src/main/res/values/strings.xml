@@ -132,4 +132,9 @@
         His team has performed so well this season that this year will be one of the best of Aristeia! His nerve and shamelessness in front of the cameras have earned him a lot of fans throughout the Human Sphere.\n
         “You people don’t appreciate me at all! To you I’m just this ‘cool mercenary’ guy with a cute little butt and two sweet-ass katanas. Well, I can cook too, you know!”\n</string>
 
+    <string name="state_dazzled">Targets affected by this State cannot draw Line of Sight beyond the 1 Range.\n</string>
+    <string name="state_poisoned">Targets affected by this State suffer 14 when the blue side of the State token is revealed.\n
+        • Remove the dPoisoned State token immediately after showing its blue side.\n
+        • Unlike other States, Characters can suffer more than one instance of dPoisoned at the same time, gaining one dPoisoned token for each such instance.\n</string>
+
 </resources>
