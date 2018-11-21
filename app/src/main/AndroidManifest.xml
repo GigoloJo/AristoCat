@@ -18,6 +18,10 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".CharactersTemplateActivity"
+            android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
             android:name=".CharactersActivity"
             android:parentActivityName=".MainActivity">
         </activity>
